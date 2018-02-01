@@ -1,0 +1,22 @@
+{
+  "name": "bitbot",
+  "version": "1.0.0",
+  "description": "Trade bot for cryptocurrency",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "2.3.0",
+    "dotenv": "^4.0.0",
+    "gdax": "github:coinbase/gdax-node",
+    "mathjs": "^3.20.1",
+    "moment": "2.20.0",
+    "ramda": "0.25.0"
+  }
+}
